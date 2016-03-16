@@ -4,10 +4,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.unice.polytech.isa</groupId>
-    <artifactId>tcf-backend</artifactId>
+    <artifactId>webService</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>ISA :: The Cookie Factory :: J2E Backend</name>
+    <name>ISA :: The Cookie Factory :: Web Service</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,14 +39,6 @@
     </profiles>
 
 
-    <repositories>
-        <!-- Snapshot repository to access to the latest version of the OpenEJB framework -->
-        <repository>
-            <id>apache-m2-snapshot</id>
-            <name>Apache Snapshot Repository</name>
-            <url>https://repository.apache.org/content/groups/snapshots</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <!-- Dependencies for the OpenEJB framework -->
@@ -117,27 +109,19 @@
             <version>${versions.tomee.embedded}</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>fr.unice.polytech.isa</groupId>
+            <artifactId>tcf-backend</artifactId>
+            <version>classes</version>
+            <type>jar</type>
+            <scope>compile</scope>
+      </dependency>
     </dependencies>
 
     <build>
-        <finalName>tcf-backend</finalName>
+        <finalName>WebService</finalName>
         <defaultGoal>package</defaultGoal>
         <plugins>
-            <plugin>
-              <artifactId>maven-war-plugin</artifactId>
-              <version>2.6</version>
-              <configuration>
-                <archiveClasses>true</archiveClasses>
-              </configuration>
-            </plugin>
-            <plugin>
-              <artifactId>maven-war-plugin</artifactId>
-              <version>2.6</version>
-              <configuration>
-                <attachClasses>true</attachClasses>
-              </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -187,6 +171,7 @@
                     <deployOpenEjbApplication>true</deployOpenEjbApplication>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 </project>
