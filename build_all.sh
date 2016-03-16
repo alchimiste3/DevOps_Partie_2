@@ -10,12 +10,12 @@ cd j2e
 mvn clean package
 cd ..
 
-# ## Building the j2e system
-# cd WebService
+# ## Building the webService system
+# cd webService
 # mvn clean package
 # cd ..
 
-# ## Building the j2e system
+# ## Building the stubs system
 # cd stubs
 # mvn clean package
 # cd ..
