@@ -118,6 +118,14 @@
             <systemPath>${project.basedir}/../j2e/target/tcf-backend-classes.jar</systemPath>
         </dependency>
 
+<!--         <dependency>
+            <groupId>fr.unice.polytech.isa</groupId>
+            <artifactId>tcf-backend</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../j2e/target/tcf-backend.war</systemPath>
+        </dependency> -->
+
       </dependencies>
 
 

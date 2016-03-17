@@ -2,8 +2,8 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.unice.polytech.isa</groupId>
-    <artifactId>tcf-client</artifactId>
-    <name>ISA :: The Cookie Factory :: Remote Client</name>
+    <artifactId>stubs</artifactId>
+    <name>ISA :: stubs</name>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -20,17 +20,26 @@
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>fr.unice.polytech.isa</groupId>
-        <artifactId>tcf-backend</artifactId>
-        <version>classes</version>
-        <scope>system</scope>
-        <systemPath>${project.basedir}/../stubs/target/stubs-1.0-SNAPSHOT.jar</systemPath>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope>
       </dependency>
     </dependencies>
 
 
     <build>
         <plugins>
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                  <excludes>
+                    <exclude>**/*.java</exclude>
+                    <exclude>**/*.gwt.xml</exclude>
+                  </excludes>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -40,5 +49,17 @@
                 </configuration>
             </plugin>
         </plugins>
+
+      <resources>
+        <resource>
+          <directory>src/main/resources</directory>
+        </resource>
+        <resource>
+          <directory>src/main/java</directory>
+          <includes>
+            <include>**/*.java</include>
+          </includes>
+        </resource>
+      </resources>
     </build>
 </project>
