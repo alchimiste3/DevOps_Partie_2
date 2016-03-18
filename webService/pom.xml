@@ -4,9 +4,9 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.unice.polytech.isa</groupId>
-    <artifactId>webService</artifactId>
-    <packaging>war</packaging>
-    <version>1.0</version>
+    <artifactId>tcf-webService</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
     <name>Web Service</name>
 
 
@@ -113,25 +113,16 @@
         <dependency>
             <groupId>fr.unice.polytech.isa</groupId>
             <artifactId>tcf-backend</artifactId>
-            <version>classes</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/../j2e/target/tcf-backend-classes.jar</systemPath>
-        </dependency>
-
-<!--         <dependency>
-            <groupId>fr.unice.polytech.isa</groupId>
-            <artifactId>tcf-backend</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/../j2e/target/tcf-backend.war</systemPath>
-        </dependency> -->
+            <systemPath>${project.basedir}/../j2e/target/tcf-backend-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
 
       </dependencies>
 
 
 
     <build>
-        <finalName>webService</finalName>
         <defaultGoal>package</defaultGoal>
         <plugins>
             <plugin>
