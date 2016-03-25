@@ -20,20 +20,26 @@ public class CartWSDemo {
 	}
 
 	private static void demo(CartWebService ws) throws Exception {
-		List<Item> cart = ws.getCustomerCartContents("john");
-		System.out.println("Cart is empty: " + cart.isEmpty());
-		Item i = new Item();
-		i.setCookie(Cookies.CHOCOLALALA);
-		i.setQuantity(3);
-		ws.addItemToCustomerCart("john", i);
-		i.setCookie(Cookies.DARK_TEMPTATION);
-		i.setQuantity(2);
-		ws.addItemToCustomerCart("john", i);
-		i.setCookie(Cookies.CHOCOLALALA);
-		i.setQuantity(4);
-		ws.addItemToCustomerCart("john", i);
-		cart = ws.getCustomerCartContents("john");
-		System.out.println("John's cart: " +cart);
+		try{
+			List<Item> cart = ws.getCustomerCartContents("john");
+			System.out.println("Cart is empty: " + cart.isEmpty());
+			// Item i = new Item();
+			// i.setCookie(Cookies.CHOCOLALALA);
+			// i.setQuantity(3);
+			// ws.addItemToCustomerCart("john", i);
+			// i.setCookie(Cookies.DARK_TEMPTATION);
+			// i.setQuantity(2);
+			// ws.addItemToCustomerCart("john", i);
+			// i.setCookie(Cookies.CHOCOLALALA);
+			// i.setQuantity(4);
+			// ws.addItemToCustomerCart("john", i);
+			// cart = ws.getCustomerCartContents("john");
+			// System.out.println("John's cart: " +cart);
+		}
+		catch(Exception e ){
+			System.out.println("Probleme demo → "+e.getMessage());
+		}
+
 	}
 
 	private static CartWebService initialize(String host, String port) {

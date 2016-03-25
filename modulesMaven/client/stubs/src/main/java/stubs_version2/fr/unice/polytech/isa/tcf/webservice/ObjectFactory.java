@@ -41,11 +41,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ListAllRecipes }
+     * Create an instance of {@link UnknownOrderId }
      * 
      */
-    public ListAllRecipes createListAllRecipes() {
-        return new ListAllRecipes();
+    public UnknownOrderId createUnknownOrderId() {
+        return new UnknownOrderId();
     }
 
     /**
@@ -57,19 +57,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link UnknownOrderId }
+     * Create an instance of {@link RegisterResponse }
      * 
      */
-    public UnknownOrderId createUnknownOrderId() {
-        return new UnknownOrderId();
-    }
-
-    /**
-     * Create an instance of {@link AlreadyExistingCustomerException }
-     * 
-     */
-    public AlreadyExistingCustomerException createAlreadyExistingCustomerException() {
-        return new AlreadyExistingCustomerException();
+    public RegisterResponse createRegisterResponse() {
+        return new RegisterResponse();
     }
 
     /**
@@ -81,19 +73,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link RegisterResponse }
+     * Create an instance of {@link ListAllRecipes }
      * 
      */
-    public RegisterResponse createRegisterResponse() {
-        return new RegisterResponse();
-    }
-
-    /**
-     * Create an instance of {@link TrackResponse }
-     * 
-     */
-    public TrackResponse createTrackResponse() {
-        return new TrackResponse();
+    public ListAllRecipes createListAllRecipes() {
+        return new ListAllRecipes();
     }
 
     /**
@@ -102,6 +86,22 @@ public class ObjectFactory {
      */
     public Register createRegister() {
         return new Register();
+    }
+
+    /**
+     * Create an instance of {@link AlreadyExistingCustomerException }
+     * 
+     */
+    public AlreadyExistingCustomerException createAlreadyExistingCustomerException() {
+        return new AlreadyExistingCustomerException();
+    }
+
+    /**
+     * Create an instance of {@link TrackResponse }
+     * 
+     */
+    public TrackResponse createTrackResponse() {
+        return new TrackResponse();
     }
 
     /**

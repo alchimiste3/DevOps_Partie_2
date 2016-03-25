@@ -35,6 +35,9 @@ public class CartWebServiceImpl implements CartWebService {
 	@Override
 	public Set<Item> getCustomerCartContents(String customerName)
 			throws UnknownCustomerException {
+		System.out.println("cart = "+ cart);
+		System.out.println("salut\n\n\n");
+
 		return cart.contents(readCustomer(customerName));
 	}
 

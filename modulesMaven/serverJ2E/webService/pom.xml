@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.unice.polytech.isa</groupId>
-    <artifactId>tcf-webService</artifactId>
+    <artifactId>tcf-backend</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>ISA :: Web Services</name>
@@ -121,6 +121,7 @@
 
 
     <build>
+        <finalName>tcf-backend</finalName>
         <defaultGoal>package</defaultGoal>
         <plugins>
             <plugin>

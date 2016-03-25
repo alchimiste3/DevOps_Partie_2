@@ -14,5 +14,5 @@ echo "Copilation des module maven"
 echo ""
 cd modulesMaven
 mvn -q clean
-mvn install
+mvn package
 cd ..
