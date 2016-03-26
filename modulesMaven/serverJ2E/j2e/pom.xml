@@ -47,42 +47,18 @@
             <url>https://repository.apache.org/content/groups/snapshots</url>
         </repository>
 
-            <repository>
-        <id>central</id>
-        <url>http://erebe-vm7.i3s.unice.fr:80/artifactory/libs-release</url>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
-    </repository>
-    <repository>
-        <id>snapshots</id>
-        <url>http://erebe-vm7.i3s.unice.fr:80/artifactory/libs-snapshot</url>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
-    </repository>
-
 
     </repositories>
 
-    <pluginRepositories>
-        <pluginRepository>
+    <distributionManagement>
+        <repository>
             <id>central</id>
-            <url>http://erebe-vm7.i3s.unice.fr:80/artifactory/plugins-release</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-        <pluginRepository>
-            <id>snapshots</id>
-            <url>http://erebe-vm7.i3s.unice.fr:80/artifactory/plugins-snapshot</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-        </pluginRepository>
-    </pluginRepositories>
+            <name>erebe-vm7-releases</name>
+            <url>http://erebe-vm7.i3s.unice.fr/artifactory/ext-release-local</url>
+        </repository>
+    </distributionManagement>
 
-
+    
     <dependencies>
         <!-- Dependencies for the OpenEJB framework -->
         <dependency>
