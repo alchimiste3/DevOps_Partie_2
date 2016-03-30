@@ -43,7 +43,7 @@
               <groupId>org.apache.cxf</groupId>
               <artifactId>cxf-codegen-plugin</artifactId>
               <version>2.2.10</version>
-              <executions>
+              <!-- <executions>
                   <execution>
                       <id>generate-sources</id>
                       <phase>generate-sources</phase>
@@ -62,7 +62,7 @@
                           <goal>wsdl2java</goal>
                       </goals>
                   </execution>
-              </executions>
+              </executions> -->
           </plugin>
         </plugins>
 
