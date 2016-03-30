@@ -1,0 +1,1978 @@
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 30 2015 08:08:33 UTC
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.63.0
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Linux
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            3.13.0-77-generic
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             /usr/local/java/jdk1.8.0_65/jre
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_65-b17
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dtomee.remote.support=true
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Xmx512m
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:PermSize=256m
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/logging.properties
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -javaagent:/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib/openejb-javaagent.jar
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/endorsed
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.ext.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+mars 30, 2016 7:15:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -ea
+mars 30, 2016 7:15:21 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mars 30, 2016 7:15:21 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:15:21 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:15:21 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'tomee.remote.support=true'
+mars 30, 2016 7:15:21 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: OpenEJB http://tomee.apache.org/
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Startup: Wed Mar 30 19:15:22 CEST 2016
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Copyright 1999-2015 (C) Apache OpenEJB/TomEE Project, All Rights Reserved.
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Version: 4.7.3
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build date: 20151204
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build time: 06:14
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.home = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:15:22 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.base = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:15:22 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:15:22 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Succeeded in installing singleton service
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.ConfigurationFactory init
+INFOS: openejb configuration file is '/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/tomee.xml'
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+mars 30, 2016 7:15:22 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.system.apps=true'
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: openejb
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Using openejb.deploymentId.format '{ejbName}'
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+mars 30, 2016 7:15:22 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "openejb" loaded.
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating TransactionManager(id=Default Transaction Manager)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating SecurityService(id=Tomcat Security Service)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateless Container)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler createAppClassLoader
+INFOS: Not creating another application classloader for openejb
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: openejb
+mars 30, 2016 7:15:22 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFOS: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+mars 30, 2016 7:15:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=openejb)
+mars 30, 2016 7:15:22 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf)
+mars 30, 2016 7:15:23 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf-rs)
+mars 30, 2016 7:15:23 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS:   ** Bound Services **
+mars 30, 2016 7:15:23 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFOS:   NAME                 IP              PORT  
+mars 30, 2016 7:15:23 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: -------
+mars 30, 2016 7:15:23 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: Ready!
+mars 30, 2016 7:15:23 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2331 ms
+mars 30, 2016 7:15:23 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFOS: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+mars 30, 2016 7:15:23 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Resource(id=UserDatabase)
+mars 30, 2016 7:15:23 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mars 30, 2016 7:15:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:15:23 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war de l'application web
+mars 30, 2016 7:15:23 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFOS: ------------------------- localhost -> /tcf-webServices
+mars 30, 2016 7:15:23 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracting jar: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war
+mars 30, 2016 7:15:23 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracted path: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:15:23 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb Database: EjbDeployment(deployment-id=Database)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CatalogueBean: EjbDeployment(deployment-id=CatalogueBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb KitchenBean: EjbDeployment(deployment-id=KitchenBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerRegistryBean: EjbDeployment(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CashierBean: EjbDeployment(deployment-id=CashierBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateless: EjbDeployment(deployment-id=cart-stateless)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerCareWS: EjbDeployment(deployment-id=CustomerCareWS)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CartWS: EjbDeployment(deployment-id=CartWS)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateful: EjbDeployment(deployment-id=cart-stateful)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Singleton Container, type=Container, provider-id=Default Singleton Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean Database: Container(type=SINGLETON, id=Default Singleton Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Singleton Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean cart-stateful: Container(type=STATEFUL, id=Default Stateful Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateful Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.core.stateful.SimplePassivater init
+INFOS: Using directory /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp for stateful session passivation
+mars 30, 2016 7:15:24 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices" loaded.
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=DatabaseLocalBean) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database!fr.unice.polytech.isa.tcf.utils.Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CatalogueBeanLocal) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean!fr.unice.polytech.isa.tcf.CatalogueExploration) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=KitchenBeanLocal) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.OrderProcessing) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.Tracker) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerRegistryBeanLocal) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerRegistration) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerFinder) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CashierBeanLocal) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean!fr.unice.polytech.isa.tcf.Payment) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocalBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.components.carts.CartStatelessBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocal) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerCareWSLocal) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS!fr.unice.polytech.isa.tcf.webservice.CustomerCareService) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CartWSLocal) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS!fr.unice.polytech.isa.tcf.webservice.CartWebService) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocalBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.components.carts.CartStatefulBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocal) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:15:24 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:15:24 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+mars 30, 2016 7:15:24 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [CdiPlugin]
+mars 30, 2016 7:15:24 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+mars 30, 2016 7:15:24 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFOS: All injection points were validated successfully.
+mars 30, 2016 7:15:24 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 110 ms.
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:15:24 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:15:25 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CustomerCareWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/customer-care}CustomerCareServiceImplService) --> Ejb(id=CustomerCareWS)
+mars 30, 2016 7:15:25 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CartWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/cart}CartWebServiceImplService) --> Ejb(id=CartWS)
+mars 30, 2016 7:15:25 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices)
+mars 30, 2016 7:15:26 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war has finished in 2 906 ms
+mars 30, 2016 7:15:26 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:15:26 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:15:26 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 3014 ms
+mars 30, 2016 7:15:31 PM org.apache.catalina.core.StandardServer await
+INFOS: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mars 30, 2016 7:15:31 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:15:31 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:15:31 PM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+mars 30, 2016 7:15:31 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:15:31 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:15:31 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:15:31 PM org.apache.openejb.server.SimpleServiceManager stop
+INFOS: Stopping server services
+mars 30, 2016 7:15:31 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: openejb
+mars 30, 2016 7:15:31 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:15:31 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 30 2015 08:08:33 UTC
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.63.0
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Linux
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            3.13.0-77-generic
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             /usr/local/java/jdk1.8.0_65/jre
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_65-b17
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dtomee.remote.support=true
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Xmx512m
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:PermSize=256m
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/logging.properties
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -javaagent:/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib/openejb-javaagent.jar
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/endorsed
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.ext.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+mars 30, 2016 7:21:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -ea
+mars 30, 2016 7:21:35 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mars 30, 2016 7:21:35 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:21:35 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:21:36 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'tomee.remote.support=true'
+mars 30, 2016 7:21:36 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: OpenEJB http://tomee.apache.org/
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Startup: Wed Mar 30 19:21:36 CEST 2016
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Copyright 1999-2015 (C) Apache OpenEJB/TomEE Project, All Rights Reserved.
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Version: 4.7.3
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build date: 20151204
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build time: 06:14
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.home = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:21:36 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.base = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:21:36 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:21:36 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Succeeded in installing singleton service
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.ConfigurationFactory init
+INFOS: openejb configuration file is '/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/tomee.xml'
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+mars 30, 2016 7:21:36 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.system.apps=true'
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: openejb
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Using openejb.deploymentId.format '{ejbName}'
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+mars 30, 2016 7:21:36 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+mars 30, 2016 7:21:37 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "openejb" loaded.
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating TransactionManager(id=Default Transaction Manager)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating SecurityService(id=Tomcat Security Service)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateless Container)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler createAppClassLoader
+INFOS: Not creating another application classloader for openejb
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: openejb
+mars 30, 2016 7:21:37 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFOS: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=openejb)
+mars 30, 2016 7:21:37 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf)
+mars 30, 2016 7:21:37 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf-rs)
+mars 30, 2016 7:21:37 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS:   ** Bound Services **
+mars 30, 2016 7:21:37 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFOS:   NAME                 IP              PORT  
+mars 30, 2016 7:21:37 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: -------
+mars 30, 2016 7:21:37 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: Ready!
+mars 30, 2016 7:21:37 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2581 ms
+mars 30, 2016 7:21:37 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFOS: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+mars 30, 2016 7:21:37 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Resource(id=UserDatabase)
+mars 30, 2016 7:21:37 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mars 30, 2016 7:21:37 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:21:37 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war de l'application web
+mars 30, 2016 7:21:37 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFOS: ------------------------- localhost -> /tcf-webServices
+mars 30, 2016 7:21:37 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracting jar: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war
+mars 30, 2016 7:21:37 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracted path: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:21:37 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb Database: EjbDeployment(deployment-id=Database)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CatalogueBean: EjbDeployment(deployment-id=CatalogueBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateless: EjbDeployment(deployment-id=cart-stateless)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CashierBean: EjbDeployment(deployment-id=CashierBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerRegistryBean: EjbDeployment(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CartWS: EjbDeployment(deployment-id=CartWS)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerCareWS: EjbDeployment(deployment-id=CustomerCareWS)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb KitchenBean: EjbDeployment(deployment-id=KitchenBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateful: EjbDeployment(deployment-id=cart-stateful)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Singleton Container, type=Container, provider-id=Default Singleton Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean Database: Container(type=SINGLETON, id=Default Singleton Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Singleton Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean cart-stateful: Container(type=STATEFUL, id=Default Stateful Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateful Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.core.stateful.SimplePassivater init
+INFOS: Using directory /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp for stateful session passivation
+mars 30, 2016 7:21:38 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices" loaded.
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=DatabaseLocalBean) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database!fr.unice.polytech.isa.tcf.utils.Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CatalogueBeanLocal) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean!fr.unice.polytech.isa.tcf.CatalogueExploration) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocalBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.components.carts.CartStatelessBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocal) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CashierBeanLocal) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean!fr.unice.polytech.isa.tcf.Payment) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerRegistryBeanLocal) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerRegistration) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerFinder) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CartWSLocal) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS!fr.unice.polytech.isa.tcf.webservice.CartWebService) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerCareWSLocal) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS!fr.unice.polytech.isa.tcf.webservice.CustomerCareService) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=KitchenBeanLocal) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.OrderProcessing) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.Tracker) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocalBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.components.carts.CartStatefulBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocal) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:21:38 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:21:38 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+mars 30, 2016 7:21:38 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [CdiPlugin]
+mars 30, 2016 7:21:38 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+mars 30, 2016 7:21:38 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFOS: All injection points were validated successfully.
+mars 30, 2016 7:21:38 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 110 ms.
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:21:38 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:21:39 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:21:39 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:21:39 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:21:39 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:21:39 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:21:39 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:21:39 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:21:39 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:21:39 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CartWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/cart}CartWebServiceImplService) --> Ejb(id=CartWS)
+mars 30, 2016 7:21:39 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CustomerCareWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/customer-care}CustomerCareServiceImplService) --> Ejb(id=CustomerCareWS)
+mars 30, 2016 7:21:39 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices)
+mars 30, 2016 7:21:40 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war has finished in 2 273 ms
+mars 30, 2016 7:21:40 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:21:40 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:21:40 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 2409 ms
+mars 30, 2016 7:24:24 PM org.apache.catalina.core.StandardServer await
+INFOS: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 30 2015 08:08:33 UTC
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.63.0
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Linux
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            3.13.0-77-generic
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             /usr/local/java/jdk1.8.0_65/jre
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_65-b17
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dtomee.remote.support=true
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Xmx512m
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:PermSize=256m
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/logging.properties
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -javaagent:/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib/openejb-javaagent.jar
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/endorsed
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.ext.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+mars 30, 2016 7:24:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -ea
+mars 30, 2016 7:24:31 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mars 30, 2016 7:24:31 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:24:31 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:24:32 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'tomee.remote.support=true'
+mars 30, 2016 7:24:32 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: OpenEJB http://tomee.apache.org/
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Startup: Wed Mar 30 19:24:32 CEST 2016
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Copyright 1999-2015 (C) Apache OpenEJB/TomEE Project, All Rights Reserved.
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Version: 4.7.3
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build date: 20151204
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build time: 06:14
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.home = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:24:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.base = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:24:32 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:24:32 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Succeeded in installing singleton service
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.ConfigurationFactory init
+INFOS: openejb configuration file is '/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/tomee.xml'
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+mars 30, 2016 7:24:32 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.system.apps=true'
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: openejb
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Using openejb.deploymentId.format '{ejbName}'
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+mars 30, 2016 7:24:32 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "openejb" loaded.
+mars 30, 2016 7:24:32 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating TransactionManager(id=Default Transaction Manager)
+mars 30, 2016 7:24:32 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating SecurityService(id=Tomcat Security Service)
+mars 30, 2016 7:24:32 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateless Container)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler createAppClassLoader
+INFOS: Not creating another application classloader for openejb
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: openejb
+mars 30, 2016 7:24:33 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFOS: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=openejb)
+mars 30, 2016 7:24:33 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf)
+mars 30, 2016 7:24:33 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf-rs)
+mars 30, 2016 7:24:33 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS:   ** Bound Services **
+mars 30, 2016 7:24:33 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFOS:   NAME                 IP              PORT  
+mars 30, 2016 7:24:33 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: -------
+mars 30, 2016 7:24:33 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: Ready!
+mars 30, 2016 7:24:33 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2278 ms
+mars 30, 2016 7:24:33 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFOS: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+mars 30, 2016 7:24:33 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Resource(id=UserDatabase)
+mars 30, 2016 7:24:33 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mars 30, 2016 7:24:33 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:24:33 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war de l'application web
+mars 30, 2016 7:24:33 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFOS: ------------------------- localhost -> /tcf-webServices
+mars 30, 2016 7:24:33 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracting jar: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war
+mars 30, 2016 7:24:33 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracted path: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:24:33 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb Database: EjbDeployment(deployment-id=Database)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerRegistryBean: EjbDeployment(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CashierBean: EjbDeployment(deployment-id=CashierBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateless: EjbDeployment(deployment-id=cart-stateless)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerCareWS: EjbDeployment(deployment-id=CustomerCareWS)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb KitchenBean: EjbDeployment(deployment-id=KitchenBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CartWS: EjbDeployment(deployment-id=CartWS)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CatalogueBean: EjbDeployment(deployment-id=CatalogueBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateful: EjbDeployment(deployment-id=cart-stateful)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Singleton Container, type=Container, provider-id=Default Singleton Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean Database: Container(type=SINGLETON, id=Default Singleton Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Singleton Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean cart-stateful: Container(type=STATEFUL, id=Default Stateful Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateful Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.core.stateful.SimplePassivater init
+INFOS: Using directory /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp for stateful session passivation
+mars 30, 2016 7:24:34 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices" loaded.
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=DatabaseLocalBean) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database!fr.unice.polytech.isa.tcf.utils.Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerRegistryBeanLocal) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerRegistration) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerFinder) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CashierBeanLocal) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean!fr.unice.polytech.isa.tcf.Payment) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocalBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.components.carts.CartStatelessBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocal) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerCareWSLocal) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS!fr.unice.polytech.isa.tcf.webservice.CustomerCareService) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=KitchenBeanLocal) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.OrderProcessing) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.Tracker) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CartWSLocal) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS!fr.unice.polytech.isa.tcf.webservice.CartWebService) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CatalogueBeanLocal) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean!fr.unice.polytech.isa.tcf.CatalogueExploration) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocalBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.components.carts.CartStatefulBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocal) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:24:34 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:24:34 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+mars 30, 2016 7:24:34 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [CdiPlugin]
+mars 30, 2016 7:24:34 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+mars 30, 2016 7:24:34 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFOS: All injection points were validated successfully.
+mars 30, 2016 7:24:34 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 84 ms.
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:24:34 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:24:35 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CustomerCareWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/customer-care}CustomerCareServiceImplService) --> Ejb(id=CustomerCareWS)
+mars 30, 2016 7:24:35 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CartWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/cart}CartWebServiceImplService) --> Ejb(id=CartWS)
+mars 30, 2016 7:24:35 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices)
+mars 30, 2016 7:24:35 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war has finished in 2 071 ms
+mars 30, 2016 7:24:35 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:24:35 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:24:35 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 2190 ms
+mars 30, 2016 7:45:24 PM org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+AVERTISSEMENT: Interceptor for {http://www.polytech.unice.fr/si/4a/isa/tcf/cart}CartWebServiceImplService has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Message part {http://webservice.tcf.isa.polytech.unice.fr/}register was not recognized.  (Does it exist in service WSDL?)
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.validatePart(DocLiteralInInterceptor.java:237)
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:191)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.CxfWsContainer.onMessage(CxfWsContainer.java:89)
+	at org.apache.openejb.server.webservices.WsServlet.service(WsServlet.java:98)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mars 30, 2016 7:46:52 PM org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+AVERTISSEMENT: Interceptor for {http://www.polytech.unice.fr/si/4a/isa/tcf/cart}CartWebServiceImplService has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Message part {http://webservice.tcf.isa.polytech.unice.fr/}register was not recognized.  (Does it exist in service WSDL?)
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.validatePart(DocLiteralInInterceptor.java:237)
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:191)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.CxfWsContainer.onMessage(CxfWsContainer.java:89)
+	at org.apache.openejb.server.webservices.WsServlet.service(WsServlet.java:98)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mars 30, 2016 7:52:17 PM org.apache.catalina.core.StandardServer await
+INFOS: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mars 30, 2016 7:52:17 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:52:17 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:52:17 PM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+mars 30, 2016 7:52:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:52:17 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:52:17 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:52:17 PM org.apache.openejb.server.SimpleServiceManager stop
+INFOS: Stopping server services
+mars 30, 2016 7:52:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: openejb
+mars 30, 2016 7:52:17 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:52:17 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 30 2015 08:08:33 UTC
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.63.0
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Linux
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            3.13.0-77-generic
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             /usr/local/java/jdk1.8.0_65/jre
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_65-b17
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dtomee.remote.support=true
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Xmx512m
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:PermSize=256m
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/logging.properties
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -javaagent:/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib/openejb-javaagent.jar
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/endorsed
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.ext.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+mars 30, 2016 7:52:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -ea
+mars 30, 2016 7:52:24 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mars 30, 2016 7:52:25 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:52:25 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:52:25 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'tomee.remote.support=true'
+mars 30, 2016 7:52:25 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: OpenEJB http://tomee.apache.org/
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Startup: Wed Mar 30 19:52:25 CEST 2016
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Copyright 1999-2015 (C) Apache OpenEJB/TomEE Project, All Rights Reserved.
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Version: 4.7.3
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build date: 20151204
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build time: 06:14
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.home = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:52:25 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.base = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:52:25 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:52:25 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Succeeded in installing singleton service
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.ConfigurationFactory init
+INFOS: openejb configuration file is '/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/tomee.xml'
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+mars 30, 2016 7:52:26 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.system.apps=true'
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: openejb
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Using openejb.deploymentId.format '{ejbName}'
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+mars 30, 2016 7:52:26 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "openejb" loaded.
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating TransactionManager(id=Default Transaction Manager)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating SecurityService(id=Tomcat Security Service)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateless Container)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler createAppClassLoader
+INFOS: Not creating another application classloader for openejb
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: openejb
+mars 30, 2016 7:52:26 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFOS: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=openejb)
+mars 30, 2016 7:52:26 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf)
+mars 30, 2016 7:52:26 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf-rs)
+mars 30, 2016 7:52:26 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS:   ** Bound Services **
+mars 30, 2016 7:52:26 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFOS:   NAME                 IP              PORT  
+mars 30, 2016 7:52:26 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: -------
+mars 30, 2016 7:52:26 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: Ready!
+mars 30, 2016 7:52:26 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2472 ms
+mars 30, 2016 7:52:26 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFOS: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+mars 30, 2016 7:52:26 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Resource(id=UserDatabase)
+mars 30, 2016 7:52:26 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mars 30, 2016 7:52:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:52:26 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war de l'application web
+mars 30, 2016 7:52:26 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFOS: ------------------------- localhost -> /tcf-webServices
+mars 30, 2016 7:52:26 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracting jar: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war
+mars 30, 2016 7:52:27 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracted path: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:52:27 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb Database: EjbDeployment(deployment-id=Database)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CatalogueBean: EjbDeployment(deployment-id=CatalogueBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerCareWS: EjbDeployment(deployment-id=CustomerCareWS)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CashierBean: EjbDeployment(deployment-id=CashierBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb KitchenBean: EjbDeployment(deployment-id=KitchenBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CartWS: EjbDeployment(deployment-id=CartWS)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateless: EjbDeployment(deployment-id=cart-stateless)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerRegistryBean: EjbDeployment(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateful: EjbDeployment(deployment-id=cart-stateful)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Singleton Container, type=Container, provider-id=Default Singleton Container)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean Database: Container(type=SINGLETON, id=Default Singleton Container)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Singleton Container)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean cart-stateful: Container(type=STATEFUL, id=Default Stateful Container)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateful Container)
+mars 30, 2016 7:52:27 PM org.apache.openejb.core.stateful.SimplePassivater init
+INFOS: Using directory /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp for stateful session passivation
+mars 30, 2016 7:52:27 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices" loaded.
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=DatabaseLocalBean) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database!fr.unice.polytech.isa.tcf.utils.Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CatalogueBeanLocal) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean!fr.unice.polytech.isa.tcf.CatalogueExploration) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerCareWSLocal) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS!fr.unice.polytech.isa.tcf.webservice.CustomerCareService) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CashierBeanLocal) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean!fr.unice.polytech.isa.tcf.Payment) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=KitchenBeanLocal) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.OrderProcessing) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.Tracker) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CartWSLocal) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS!fr.unice.polytech.isa.tcf.webservice.CartWebService) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocalBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.components.carts.CartStatelessBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocal) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerRegistryBeanLocal) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerRegistration) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerFinder) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocalBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.components.carts.CartStatefulBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocal) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:52:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:52:27 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:52:27 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+mars 30, 2016 7:52:27 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [CdiPlugin]
+mars 30, 2016 7:52:27 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+mars 30, 2016 7:52:28 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFOS: All injection points were validated successfully.
+mars 30, 2016 7:52:28 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 120 ms.
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:52:28 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:52:29 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CustomerCareWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/customer-care}CustomerCareServiceImplService) --> Ejb(id=CustomerCareWS)
+mars 30, 2016 7:52:29 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CartWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/cart}CartWebServiceImplService) --> Ejb(id=CartWS)
+mars 30, 2016 7:52:29 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices)
+mars 30, 2016 7:52:29 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war has finished in 2 510 ms
+mars 30, 2016 7:52:29 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:52:29 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:52:29 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 2620 ms
+mars 30, 2016 7:53:08 PM org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+AVERTISSEMENT: Interceptor for {http://www.polytech.unice.fr/si/4a/isa/tcf/cart}CartWebServiceImplService has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Message part {http://webservice.tcf.isa.polytech.unice.fr/}register was not recognized.  (Does it exist in service WSDL?)
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.validatePart(DocLiteralInInterceptor.java:237)
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:191)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.CxfWsContainer.onMessage(CxfWsContainer.java:89)
+	at org.apache.openejb.server.webservices.WsServlet.service(WsServlet.java:98)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mars 30, 2016 7:53:28 PM org.apache.catalina.core.StandardServer await
+INFOS: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mars 30, 2016 7:53:28 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:53:28 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:53:28 PM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+mars 30, 2016 7:53:28 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:53:28 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:53:28 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:53:28 PM org.apache.openejb.server.SimpleServiceManager stop
+INFOS: Stopping server services
+mars 30, 2016 7:53:28 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: openejb
+mars 30, 2016 7:53:28 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:53:28 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 30 2015 08:08:33 UTC
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.63.0
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Linux
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            3.13.0-77-generic
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             /usr/local/java/jdk1.8.0_65/jre
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_65-b17
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dtomee.remote.support=true
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Xmx512m
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -XX:PermSize=256m
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/logging.properties
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -javaagent:/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib/openejb-javaagent.jar
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/endorsed
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.ext.dirs=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/lib
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+mars 30, 2016 7:55:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -ea
+mars 30, 2016 7:55:58 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mars 30, 2016 7:55:58 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:55:58 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:55:59 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'tomee.remote.support=true'
+mars 30, 2016 7:55:59 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: OpenEJB http://tomee.apache.org/
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Startup: Wed Mar 30 19:55:59 CEST 2016
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Copyright 1999-2015 (C) Apache OpenEJB/TomEE Project, All Rights Reserved.
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Version: 4.7.3
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build date: 20151204
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build time: 06:14
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.home = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:55:59 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.base = /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee
+mars 30, 2016 7:55:59 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:55:59 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Succeeded in installing singleton service
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.ConfigurationFactory init
+INFOS: openejb configuration file is '/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/conf/tomee.xml'
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+mars 30, 2016 7:55:59 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.system.apps=true'
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: openejb
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Using openejb.deploymentId.format '{ejbName}'
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+mars 30, 2016 7:55:59 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "openejb" loaded.
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating TransactionManager(id=Default Transaction Manager)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating SecurityService(id=Tomcat Security Service)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateless Container)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.Assembler createAppClassLoader
+INFOS: Not creating another application classloader for openejb
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: openejb
+mars 30, 2016 7:55:59 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:55:59 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+mars 30, 2016 7:56:00 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:56:00 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:56:00 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:56:00 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mars 30, 2016 7:56:00 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mars 30, 2016 7:56:00 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mars 30, 2016 7:56:00 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFOS: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+mars 30, 2016 7:56:00 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=openejb)
+mars 30, 2016 7:56:00 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf)
+mars 30, 2016 7:56:00 PM org.apache.openejb.server.ServiceManager initServer
+INFOS: Creating ServerService(id=cxf-rs)
+mars 30, 2016 7:56:00 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS:   ** Bound Services **
+mars 30, 2016 7:56:00 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFOS:   NAME                 IP              PORT  
+mars 30, 2016 7:56:00 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: -------
+mars 30, 2016 7:56:00 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: Ready!
+mars 30, 2016 7:56:00 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2365 ms
+mars 30, 2016 7:56:00 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFOS: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+mars 30, 2016 7:56:00 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Resource(id=UserDatabase)
+mars 30, 2016 7:56:00 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mars 30, 2016 7:56:00 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.63 (1.7.3)
+mars 30, 2016 7:56:00 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war de l'application web
+mars 30, 2016 7:56:00 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFOS: ------------------------- localhost -> /tcf-webServices
+mars 30, 2016 7:56:00 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracting jar: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war
+mars 30, 2016 7:56:00 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracted path: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:56:00 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+mars 30, 2016 7:56:00 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb Database: EjbDeployment(deployment-id=Database)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CatalogueBean: EjbDeployment(deployment-id=CatalogueBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerRegistryBean: EjbDeployment(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CustomerCareWS: EjbDeployment(deployment-id=CustomerCareWS)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb KitchenBean: EjbDeployment(deployment-id=KitchenBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateless: EjbDeployment(deployment-id=cart-stateless)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CashierBean: EjbDeployment(deployment-id=CashierBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb CartWS: EjbDeployment(deployment-id=CartWS)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb cart-stateful: EjbDeployment(deployment-id=cart-stateful)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Singleton Container, type=Container, provider-id=Default Singleton Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean Database: Container(type=SINGLETON, id=Default Singleton Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Singleton Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean cart-stateful: Container(type=STATEFUL, id=Default Stateful Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateful Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.core.stateful.SimplePassivater init
+INFOS: Using directory /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/temp for stateful session passivation
+mars 30, 2016 7:56:01 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices" loaded.
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=DatabaseLocalBean) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database!fr.unice.polytech.isa.tcf.utils.Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/Database) --> Ejb(deployment-id=Database)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CatalogueBeanLocal) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean!fr.unice.polytech.isa.tcf.CatalogueExploration) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CatalogueBean) --> Ejb(deployment-id=CatalogueBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerRegistryBeanLocal) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerRegistration) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean!fr.unice.polytech.isa.tcf.CustomerFinder) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerRegistryBean) --> Ejb(deployment-id=CustomerRegistryBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CustomerCareWSLocal) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS!fr.unice.polytech.isa.tcf.webservice.CustomerCareService) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CustomerCareWS) --> Ejb(deployment-id=CustomerCareWS)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=KitchenBeanLocal) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.OrderProcessing) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean!fr.unice.polytech.isa.tcf.Tracker) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/KitchenBean) --> Ejb(deployment-id=KitchenBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocalBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.components.carts.CartStatelessBean) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statelessLocal) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateless) --> Ejb(deployment-id=cart-stateless)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CashierBeanLocal) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean!fr.unice.polytech.isa.tcf.Payment) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CashierBean) --> Ejb(deployment-id=CashierBean)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=CartWSLocal) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS!fr.unice.polytech.isa.tcf.webservice.CartWebService) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/CartWS) --> Ejb(deployment-id=CartWS)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocalBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.components.carts.CartStatefulBean) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=cart-statefulLocal) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful!fr.unice.polytech.isa.tcf.CartModifier) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/tcf-webServices/cart-stateful) --> Ejb(deployment-id=cart-stateful)
+mars 30, 2016 7:56:01 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@ba8d91c
+mars 30, 2016 7:56:01 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+mars 30, 2016 7:56:01 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [CdiPlugin]
+mars 30, 2016 7:56:01 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+mars 30, 2016 7:56:01 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFOS: All injection points were validated successfully.
+mars 30, 2016 7:56:01 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 93 ms.
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CatalogueBean, ejb-name=CatalogueBean, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerRegistryBean, ejb-name=CustomerRegistryBean, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=KitchenBean, ejb-name=KitchenBean, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CashierBean, ejb-name=CashierBean, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateful, ejb-name=cart-stateful, container=Default Stateful Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=cart-stateless, ejb-name=cart-stateless, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CartWS, ejb-name=CartWS, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=CustomerCareWS, ejb-name=CustomerCareWS, container=Default Stateless Container)
+mars 30, 2016 7:56:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=Database, ejb-name=Database, container=Default Singleton Container)
+mars 30, 2016 7:56:02 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CustomerCareWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/customer-care}CustomerCareServiceImplService) --> Ejb(id=CustomerCareWS)
+mars 30, 2016 7:56:02 PM org.apache.openejb.server.webservices.WsService deployApp
+INFOS: Webservice(wsdl=http://localhost:8080/tcf-webServices/webservices/CartWS, qname={http://www.polytech.unice.fr/si/4a/isa/tcf/cart}CartWebServiceImplService) --> Ejb(id=CartWS)
+mars 30, 2016 7:56:02 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices)
+mars 30, 2016 7:56:02 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive /home/user/DevOps/DevOps_Partie_2/modules/webServices/target/apache-tomee/webapps/tcf-webServices.war has finished in 2 325 ms
+mars 30, 2016 7:56:02 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+mars 30, 2016 7:56:02 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+mars 30, 2016 7:56:02 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 2434 ms
+mars 30, 2016 7:56:08 PM org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+AVERTISSEMENT: Interceptor for {http://www.polytech.unice.fr/si/4a/isa/tcf/cart}CartWebServiceImplService has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Message part {http://webservice.tcf.isa.polytech.unice.fr/}listAllRecipes was not recognized.  (Does it exist in service WSDL?)
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.validatePart(DocLiteralInInterceptor.java:237)
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:191)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.CxfWsContainer.onMessage(CxfWsContainer.java:89)
+	at org.apache.openejb.server.webservices.WsServlet.service(WsServlet.java:98)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mars 30, 2016 7:56:53 PM org.apache.catalina.core.StandardServer await
+INFOS: A valid shutdown command was received via the shutdown port. Stopping the Server instance.

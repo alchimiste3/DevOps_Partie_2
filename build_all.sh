@@ -12,7 +12,7 @@ cd ..
 echo ""
 echo "Copilation des module maven"
 echo ""
-cd modulesMaven
+cd modules
 mvn -q clean
 mvn package
 cd ..
