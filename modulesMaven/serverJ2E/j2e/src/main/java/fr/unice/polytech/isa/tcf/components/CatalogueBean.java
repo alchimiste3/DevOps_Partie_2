@@ -24,6 +24,7 @@ public class CatalogueBean implements CatalogueExploration {
 			if(c.name().contains(regexp))
 				result.add(c);
 		}
+                //Ajout d'un commentaire pour l'autobuild
 		return result;
 	}
 }
