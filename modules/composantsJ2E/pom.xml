@@ -153,6 +153,7 @@
                 <artifactId>tomee-maven-plugin</artifactId>
                 <version>${versions.tomee.embedded}</version>
                 <configuration>
+                    <port>9090</port>
                     <!-- From TomEE to TomEE+ to support the web services stack -->
                     <tomeeClassifier>plus</tomeeClassifier>
                     <args>-Xmx512m -XX:PermSize=256m</args>
