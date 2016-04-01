@@ -26,10 +26,9 @@ public class CartWSDemo {
 
 	private static void demo(CartWebService cartws, CustomerCareService custumerws) throws Exception {
 		try{
-		    
-//		    custumerws.register("john", "1234-896983");
-		    custumerws.listAllRecipes();
-			// List<Item> cart = ws.getCustomerCartContents("john");
+		    custumerws.register("john", "1234-896983");
+//		    custumerws.listAllRecipes();
+//			 List<Item> cart = cartws.getCustomerCartContents("john");
 			// System.out.println("Cart is empty: " + cart.isEmpty());
 			// Item i = new Item();
 			// i.setCookie(Cookies.CHOCOLALALA);
