@@ -26,22 +26,25 @@ public class CartWSDemo {
 
 	private static void demo(CartWebService cartws, CustomerCareService custumerws) throws Exception {
 		try{
-		    custumerws.register("john", "1234-896983");
-//		    custumerws.listAllRecipes();
-//			 List<Item> cart = cartws.getCustomerCartContents("john");
-			// System.out.println("Cart is empty: " + cart.isEmpty());
-			// Item i = new Item();
-			// i.setCookie(Cookies.CHOCOLALALA);
-			// i.setQuantity(3);
-			// ws.addItemToCustomerCart("john", i);
-			// i.setCookie(Cookies.DARK_TEMPTATION);
-			// i.setQuantity(2);
-			// ws.addItemToCustomerCart("john", i);
-			// i.setCookie(Cookies.CHOCOLALALA);
-			// i.setQuantity(4);
-			// ws.addItemToCustomerCart("john", i);
-			// cart = ws.getCustomerCartContents("john");
-			// System.out.println("John's cart: " +cart);
+		   
+		    custumerws.register("john", "896983211");
+			List<Item> cart = cartws.getCustomerCartContents("john");
+			System.out.println("Cart is empty: " + cart.isEmpty());
+			Item i = new Item();
+			i.setCookie(Cookies.CHOCOLALALA);
+			i.setQuantity(3);
+			cartws.addItemToCustomerCart("john", i);
+			i.setCookie(Cookies.DARK_TEMPTATION);
+			i.setQuantity(2);
+			cartws.addItemToCustomerCart("john", i);
+			i.setCookie(Cookies.CHOCOLALALA);
+			i.setQuantity(4);
+			cartws.addItemToCustomerCart("john", i);
+			cart = cartws.getCustomerCartContents("john");
+			System.out.println("John's cart: ");
+			for(Item it : cart){
+			    System.out.println(it.getCookie().name()+"   "+ it.getQuantity());
+			}
 		}
 		catch(Exception e ){
 			System.out.println("Probleme demo → "+e.getMessage());
@@ -68,7 +71,7 @@ public class CartWSDemo {
         CustomerCareServiceImplService factory = new CustomerCareServiceImplService(wsdlLocation);
         CustomerCareService ws = factory.getCustomerCareServiceImplPort();
         System.out.println("#### Updating the endpoint address dynamically");
-        String address = "http://"+host+":"+port+"/tcf-webServices/webservices/CartWS";
+        String address = "http://"+host+":"+port+"/tcf-webServices/webservices/CustomerCareWS";
         ((BindingProvider) ws).getRequestContext().put(BindingProvider.ENDPOINT_ADDRESS_PROPERTY, address);
         return ws;
     }
