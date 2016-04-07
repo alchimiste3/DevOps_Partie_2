@@ -16,3 +16,4 @@ cd modules
 mvn -q clean
 mvn package
 cd ..
+
