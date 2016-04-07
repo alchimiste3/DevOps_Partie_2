@@ -1,0 +1,3 @@
+arquillian/AbstractTCFTest.class
+integration/CartIntegrationTest.class
+integration/PaymentIntegrationTest.class
