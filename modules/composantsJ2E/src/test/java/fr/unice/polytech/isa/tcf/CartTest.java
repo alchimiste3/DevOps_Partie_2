@@ -37,7 +37,7 @@ public class CartTest extends AbstractTCFTest {
 	public void emptyCartByDefault() {
 		Set<Item> data = cart.contents(john);
 		assertArrayEquals(new Item[] {}, data.toArray());
-		assertEquals(1,2);
+		//assertEquals(1,2);
 	}
 
 	@Test
